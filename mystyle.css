@@ -1,0 +1,58 @@
+body{
+  background-color:black;
+  text-align: center;
+  
+}
+   
+h3 { color: white; 
+	position: absolute; 
+	left: 200px;
+	top: 400px;
+	z-index: -1;
+	font-size: 35px;
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00004d;
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+li a:hover {
+    background-color: #00ff00;
+}
+  
+p {
+	color: #00FFFF;
+	font-family: "Courier New"
+	font-size: 200px;
+	text-align: left;
+}
+  
+h1 {
+	color: red;
+	font-family: "Times New Roman";
+	font-size: 50px;
+	text-align: center;
+}
+
+h3 { position: absolute; 
+	left: 500px;
+	top: 150px;
+}
