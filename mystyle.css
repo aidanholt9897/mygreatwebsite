@@ -1,50 +1,79 @@
 body{
-  background-color:black;
+	background-color: black;
   text-align: center;
-  
 }
    
-h3 { color: white; 
+h3 { /*color: white; 
 	position: absolute; 
 	left: 200px;
 	top: 400px;
 	z-index: -1;
 	font-size: 35px;
-	text-align: center;
+	text-align: center;*/
 }
 
-ul {
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
+	text-align:center;
 }
 
-li {
+.nav li {
     float: left;
+	list-style-type: none;
 }
-
-
-li a {
+.nav li a {
 	border-right: 5px solid black;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 36px;
     text-decoration: none;
-	
 }
-li a:hover {
-    background-color: #00ff00;"
-	}
+
+.nav a:hover {
+	background-color:#00ff00;
+}
+
+.list {
+	display: block;
+	list-style-type: disc;
+	color: white;
+	font-size: 20px;
+}
+
+.list li {
+	text-align: left;
+	color: white;
+	font-size: 20px;
+}
+
+.aidan {
+	color:white; 
+    position: absolute;
+	bottom: 0;
+	right:2px;
 }
   
 p {
-	color: #00FFFF;
-	font-family: "Courier New"
-	font-size: 200px;
+	color: #00ff00;
+	font-size: 18px;
+	font-family: "Times New Roman";
 	text-align: left;
+}
+
+.downloads h3 {
+	color: #00ff00;
+	text-align: left;
+	font-size:30px
+}
+
+.downloads a {
+	color: lightgreen;
+	
 }
   
 h1 {
@@ -54,9 +83,7 @@ h1 {
 	text-align: center;
 }
 
-h3 { position: absolute; 
-	left: 500px;
-	top: 150px;
+h2 { 
+color:lightblue;
 }
-
 
