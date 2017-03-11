@@ -1,6 +1,6 @@
 body{
 	background-color: black;
-  text-align: center;
+	text-align: center;
 }
    
 h3 { /*color: white; 
@@ -11,6 +11,17 @@ h3 { /*color: white;
 	font-size: 35px;
 	text-align: center;*/
 }
+/*div { background-color:white;
+color:black;
+}
+
+.whitebox {
+
+	width:100%;
+	background-color:white;
+	color:black;
+}
+*/
 
 .nav {
     list-style-type: none;
@@ -87,3 +98,15 @@ h2 {
 color:lightblue;
 }
 
+.link {
+	color:lightblue;
+}
+
+.top {
+	color:lightblue;
+	text-align:center;
+}
+
+h3 {
+	color:#00ff00;
+}
