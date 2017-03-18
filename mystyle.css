@@ -49,6 +49,22 @@ color:black;
 	background-color:#00ff00;
 }
 
+.bottomborder1 {
+	border-bottom-style: solid;
+	border-width: 1px;
+	background-color:red;
+	color:red;
+}
+.figcaption { 
+	font-size:13px;
+	position:relative;
+	color:white;
+}
+.h3box {
+	text-align:left;
+	color:lightgreen;
+}
+
 .list {
 	display: block;
 	list-style-type: disc;
